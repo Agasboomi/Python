@@ -241,3 +241,63 @@
 #     return sum
 # print(sum_of_numbers(10))
 
+# def even_and_odds(num):
+#     even = 0
+#     odd = 0
+#     for i in range (num+1):
+#         if i%2 == 0:
+#             even=even+1
+#         else:
+#             odd = odd+1
+#     return f"{even} & {odd}"
+# print(even_and_odds(100))
+
+# def greet(name="guest"):
+#         return(f"hello,{name}")
+# print(greet())
+
+
+# check the value is empty or not 
+# def is_empty(value):
+#     if not value:
+#         return("Empty")
+#     else:
+#         return(f"Not Empty the value is {value}")
+# print(is_empty("agas"))
+
+# def show_args(name,age,city):
+#     return(f"name: {name}, age:{age}, city{city}")
+# print(show_args(name="Alice", age=30, city="New York"))
+
+# Factorial
+# n=4
+# fact = 1
+# for i in range (1,n+1):
+#     fact=fact*i
+#     i+1
+# print(fact)
+
+# def factorial(num):
+#     fact = 1
+#     for i in range(1,num+1):
+#         fact = fact*i 
+#         i= i+1
+#     return fact
+
+# numb = int(input("enter the number :"))
+# print(factorial(numb))
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+# Example usage
+n = 20
+if is_prime(n):
+    print("Prime number")
+else:
+    print("Not a prime number")
