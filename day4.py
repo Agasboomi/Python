@@ -153,11 +153,11 @@
 
 
 
-
-fruite = ['mango','orange','apple','agas','arun']
+# finding the middle value
+fruite = ['mango','orange','apple','agas','arun','Sura']
 n = len(fruite)
 if n%2 ==1:
     mediun = fruite[(n//2)] #2
 else:
-    mediun = fruite[(n//2)-1:(n//2)+1]#
+    mediun = fruite[(n//2)-1:(n//2)+1]  #1:3
 print(mediun)
