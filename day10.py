@@ -100,8 +100,8 @@
 # print(st)
 
 # For backward
-lst = list(range(11,0,-2))
-print(lst)
+# lst = list(range(11,0,-2))
+# print(lst)
 
 # person = {
 #     'first_name': 'Asabeneh',

@@ -241,6 +241,7 @@
 #     return sum
 # print(sum_of_numbers(10))
 
+# count the value of odd and even 
 # def even_and_odds(num):
 #     even = 0
 #     odd = 0
@@ -287,17 +288,52 @@
 # numb = int(input("enter the number :"))
 # print(factorial(numb))
 
-def is_prime(n):
-    if n <= 1:
-        return False
-    for i in range(2, n):
-        if n % i == 0:
-            return False
-    return True
+# def is_prime(n):
+#     if n <= 1:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
 
 # Example usage
-n = 20
-if is_prime(n):
-    print("Prime number")
-else:
-    print("Not a prime number")
+# n = 20
+# if is_prime(n):
+#     print("Prime number")
+# else:
+#     print("Not a prime number")
+
+
+# def che(name):
+#     if len(name) == len(set(name)):
+#         return "unique"
+#     else:
+#         return "Not"
+
+# print(che(["agas","arun","agas"]))  # Output: Not
+
+# Check same data type or not 
+def che(name):
+    one_index = type(name[0])
+    for i in name:
+        if type(i) != one_index:
+            return " Not Same"
+    return "Same"
+print(che(["agas","arun","agas"]))  
+
+import keyword
+
+def is_valid_variable(var_name):
+    if not isinstance(var_name, str):
+        return "Not a string"
+    if var_name.isidentifier() and not keyword.iskeyword(var_name):
+        return "Valid Python variable"
+    else:
+        return "Invalid Python variable"
+
+# Tests
+print(is_valid_variable("my_var"))   # Valid
+print(is_valid_variable("2ndVar"))   # Invalid
+print(is_valid_variable("var-name")) # Invalid
+print(is_valid_variable("_hidden"))  # Valid
+print(is_valid_variable("class"))    # Invalid (keyword)
