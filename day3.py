@@ -47,7 +47,7 @@
 # per = side_a+side_b+side_c
 # print(int(per))
 
-# # 6,7,14,15,16,22 homework karthi ka
+# # 6,7,14,15,16,22 
 
 # # Equation: y = 2x - 2
 

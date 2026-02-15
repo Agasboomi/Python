@@ -98,13 +98,13 @@ fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fr
 # print(ages) 
 
 # Question:
-kena_karthi = []
-print(len(kena_karthi))
+Name = []
+print(len(Name))
 
-kena_karthi = ['agas','kar','uma','nisha','ajay','arun']
-# print(len(kena_karthi))
+Name = ['agas','kar','uma','nisha','ajay','arun']
+# print(len(Name))
 
-# num = len(kena_karthi)
+# num = len(Name)
 # if num%2 == 0:
 
 # 4,9,19

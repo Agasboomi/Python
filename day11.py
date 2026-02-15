@@ -332,8 +332,5 @@ def is_valid_variable(var_name):
         return "Invalid Python variable"
 
 # Tests
-print(is_valid_variable("my_var"))   # Valid
-print(is_valid_variable("2ndVar"))   # Invalid
-print(is_valid_variable("var-name")) # Invalid
-print(is_valid_variable("_hidden"))  # Valid
-print(is_valid_variable("class"))    # Invalid (keyword)
+print(is_valid_variable("class"))   # Invalid (keyword)
+print(is_valid_variable("my_var"))  # Valid
