@@ -21,26 +21,31 @@
 
 # Question
 # Day 2:30days of python programming
-first_name = 'agas'
-print(type(first_name))
-last_name = "Boomi"
-print(len(last_name))
-full_name = "agas boomi"
-country = "TN"
-city = "DVK"
-Age = 18
-Year = 2015
-is_married = "NO"
-is_true = "Yes"
-is_light_on = "yes"
-First , name = 1,"agas"
-print(First)  
+# first_name = 'agas'
+# print(type(first_name))
+# last_name = "Boomi"
+# print(len(last_name))
+# full_name = "agas boomi"
+# country = "TN"
+# city = "DVK"
+# Age = 18
+# Year = 2015
+# is_married = "NO"
+# is_true = "Yes"
+# is_light_on = "yes"
+# First , name = 1,"agas"
+# print(First)  
 
-num1 = 5
-num2 = 4
+# num1 = 5
+# num2 = 4
+# Total = num1+num2
+# print(Total)
+
+num1 = "agas"
+num2 = "thees"
 Total = num1+num2
 print(Total)
 
-help('keywords')
+# help('keywords')
 
 # 12. homework to karthika

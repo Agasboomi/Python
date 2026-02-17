@@ -66,7 +66,7 @@
 
 # Reverse a string easy method
 # rev = "Logesk"
-# print(rev[::-1])/
+# print(rev[::-1])
 
 # Skipping slicing
 # language = 'Python'
@@ -84,8 +84,8 @@
 # print(challenge.replace('python', 'coding')) # 'thirty days of coding'
 # print(challenge.split())
 
-# letter= "agas\tthee"
-# print(letter.expandtabs())
+letter= "agasthee"
+print(letter.expandtabs())
 
 
 # Question
