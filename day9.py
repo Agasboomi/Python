@@ -15,7 +15,7 @@
 #     print("none") 
 
 # # Nested condition
-# a = 2
+# a = 5
 # if a > 0:
 #     if a % 2 == 0:
 #         print('A is a positive and even integer')
@@ -114,7 +114,7 @@
 
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 
-# fruit = input("Enter a fruit :").strip().lower()
+# fruit = input("Enter a fruit :").strip().lower() #mango
 # if fruit in fruits:
 #     print("All are there")
 # else:

@@ -2,23 +2,25 @@
 # empty = {}
 # print(len(empty))
 
-# person = {
-#     'first_name':'Asabeneh',
-#     'last_name':'Yetayeh',
-#     'age':250,
-#     'country':'Finland',
-#     'is_marred':True,
-#     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-#     'address':{
-#         'street':'Space street',
-#         'zipcode':'02210'
-#     }
-#     }
+person = {
+    'first_name':'Asabeneh',
+    'last_name':'Yetayeh',
+    'age':250,
+    'country':'Finland',
+    'is_marred':True,
+    'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'02210'
+    }
+    }
 # print(person['first_name']) #key:value acces by key name
 # print(person['country'])
 
 # # Adding in dict
-# person['sex'] = 'M'
+person['sex'] = 'M'
+person.pop("first_name")
+print(person)
 # person['skills'].append('HTML') # adding in the particular list
 # print(person)
 # # In the above column it contain many variable eg:list, set, tuple etc
@@ -83,15 +85,15 @@
 
 # print(dog)
 
-student = dict(
-    first_name = 'agas',
-    last_name = 'boom',
-    gender = 'M',
-    martial = 'single',
-    skill = ['coding',"no","yes"],
-    country= 'India',
-    address = 'DVK'
-)
+# student = dict(
+#     first_name = 'agas',
+#     last_name = 'boom',
+#     gender = 'M',
+#     martial = 'single',
+#     skill = ['coding',"no","yes"],
+#     country= 'India',
+#     address = 'DVK'
+# )
 
 # print(student)
 
@@ -100,7 +102,7 @@ student = dict(
 # skills =student['skill']
 # print(type(skills))
 
-
+# adding
 # student['skill']= ['play','come','walk']
 # print(student)
 
@@ -111,8 +113,8 @@ student = dict(
 
 # print(student.items())
 
-del student['skill']
-print(student)
+# del student['skill']
+# print(student)
 
-del student
-print(student)
+# del student
+# print(student)
