@@ -132,3 +132,33 @@
 # print(total)    # 15
 
 # Question 
+# countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+# names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# for country in countries:
+#     print(country)
+#     for name in names:
+#         print(name)
+#         for number in numbers:
+#             print(number) 
+
+
+# map function 
+# number = [1,3]
+# def num(x):
+#     return x+x
+
+# con = map(num,number)
+# print(list(con))
+
+
+# Reduce in this function we need to import it and pass alteast 2 parameter
+# from functools import reduce
+# num = [3,4]
+# def number(x,y):
+#     return x*y
+
+# square = reduce(number,num)
+# print(square)
+

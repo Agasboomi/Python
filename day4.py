@@ -69,9 +69,9 @@
 # print(rev[::-1])
 
 # Skipping slicing
-# language = 'Python'
-# pto = language[0:4:2] #[start:stop:step]
-# print(pto) 
+language = 'Karthi'  
+pto = language[0:5:2] 
+print(pto) 
 
 # STRING METHODS
 # letter = "agas"
@@ -84,8 +84,8 @@
 # print(challenge.replace('python', 'coding')) # 'thirty days of coding'
 # print(challenge.split())
 
-letter= "agasthee"
-print(letter.expandtabs())
+# letter= "agasthee"
+# print(letter.expandtabs())
 
 
 # Question
