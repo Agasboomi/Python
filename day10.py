@@ -1,13 +1,14 @@
 # In loop you can able to run repitative think by using while and for loop
+
 # count = 0
 # while count <= 5:
-#     print(count)
+#     print(count) #012345
 #     count = count + 1
 
 # break when we like to get out of or stop the LookupError
 # count = 0
 # while count <= 5:
-#     print(count)
+#     print(count) #012
 #     count = count + 1
 #     if count == 3:
 #         break
@@ -15,16 +16,16 @@
 # Continue: With the continue statement we can skip the current iteration
 # count = 0
 # while count<5:
-#     if count == 3:
-#         count += 1
+#     if count == 3: #0 ==3
+#         # count += 1 #count = count +1 
 #         continue
-#     print(count)
+#     print(count) 
 #     count = count+1
 
 # For Loop 
 # numbers = [0, 1, 2, 3, 4, 5]
-# for number in numbers: # number is temporary name to refer to the list's items, valid only inside this loop
-#     print(number)       # the numbers will be printed line by line, from 0 to 5
+# for i in numbers: # number is temporary name to refer to the list's items, valid only inside this loop
+#     print(i) # the numbers will be printed line by line, from 0 to 5
 
 
 # String 
@@ -3036,10 +3037,10 @@ Countries = [
 # print("Total number of languages:", len(languages)) #count
 
 # # 2. Ten most spoken languages
-language_count = {}
-for country in Countries:
-    for lang in country['languages']:
-        language_count[lang] = language_count.get(lang, 0) + 1
+# language_count = {}
+# for country in Countries:
+#     for lang in country['languages']:
+#         language_count[lang] = language_count.get(lang, 0) + 1
 
 # # sort by frequency (descending) and take top 10
 # most_spoken_languages = sorted(language_count.items(), key=lambda x: x[1], reverse=True)[:10]
@@ -3056,8 +3057,8 @@ for country in Countries:
 #     print(f"{country['name']}: {country['population']}")
 
 
-for i in range(0,11):
-    if i <=10:
-        mul = i*i
-        print(f"{i} x {i} = {mul}")
-        i = i+1
+# for i in range(0,11):
+#     if i <=10:
+#         mul = i*i
+#         print(f"{i} x {i} = {mul}")
+#         i = i+1

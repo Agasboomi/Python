@@ -69,9 +69,9 @@
 # print(rev[::-1])
 
 # Skipping slicing
-language = 'Karthi'  
-pto = language[0:5:2] 
-print(pto) 
+# language = 'Karthi'  
+# pto = language[0:4:2] 
+# print(pto) 
 
 # STRING METHODS
 # letter = "agas"
@@ -159,5 +159,5 @@ n = len(fruite)
 if n%2 ==1:
     mediun = fruite[(n//2)] #2
 else:
-    mediun = fruite[(n//2)-1:(n//2)+1]  #1:3
+    mediun = fruite[(n//2)-1:(n//2)+1]  #1:3 #2:4
 print(mediun)
