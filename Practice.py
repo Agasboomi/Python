@@ -44,7 +44,7 @@
 #     print("prime")
 
 # function 
-# return is used to store a value in function and it reuse
+# r1eturn is used to store a value in function and it reuse
 # print is used to display the value in terminal
 
 # def check(num):
@@ -59,7 +59,7 @@
 # print(check)
 
 # Fibinocies 
-# 011235813
+# 01235813
 # a =0
 # b =1
 # print(a)
@@ -86,8 +86,16 @@
 
 
 # leap year
-y = 1600
-if (y%4 ==0 and y%100 != 100) and y%400 == 0:
-    print("Leap year")
+# y = 1600
+# if (y%4 ==0 and y%100 != 0) and y%400 == 0:
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# Palindrom 
+sen = input("Enter a word")
+if sen == sen[::-1]:
+    print("palindrome")
 else:
-    print("Not a leap year")
+    print("not")
+    
