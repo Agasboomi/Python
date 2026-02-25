@@ -63,7 +63,7 @@ print(person)
 
 # # print(dict1)  # {'a': 99, 'b': 2} → changed because dict2 points to same object
 # # print(dict2)  # {'a': 99, 'b': 2}
-# # print(dict3)  # {'a': 1, 'b': 100} → independent copy
+# # print(dict3)  # {'a': 1,  'b': 100} → independent copy
 
 # # taking only a key and value
 # key=person.keys()

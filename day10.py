@@ -146,12 +146,11 @@
 
 # count = 1
 # while count <=7:
-#     print('#'* count)
+#     print('#'* count) # #*2 = ##
 #     count = count +1
 
 # for i in range(1,8):
 #     print('#'*i)
-#     i = i+1
 
 # row = 1
 # while row<=8:
@@ -172,7 +171,7 @@
 #     print(fun)
 
 # print only even 0 -100
-# for i in range (0,101,2):
+# for i in range (0,101,1):
 #     print(i)
 
 # for i in range (101):
@@ -190,7 +189,7 @@
 # Sum of all num 0-100
 # Sum=0
 # for i in range (101):
-#     Sum = Sum+i
+#     Sum = Sum+i 
 # print(Sum)
 
 # Sum=0

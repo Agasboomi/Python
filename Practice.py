@@ -99,3 +99,5 @@ if sen == sen[::-1]:
 else:
     print("not")
     
+# Armstrong
+# 153 = 1 + 5 + 3 
