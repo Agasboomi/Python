@@ -93,11 +93,24 @@
 #     print("Not a leap year")
 
 # Palindrom 
-sen = input("Enter a word")
-if sen == sen[::-1]:
-    print("palindrome")
-else:
-    print("not")
+# sen = input("Enter a word")
+# if sen == sen[::-1]:
+#     print("palindrome")
+# else:
+#     print("not")
     
 # Armstrong
 # 153 = 1 + 5 + 3 
+
+# n = 153
+# temp = n
+# sum = 0
+# while n>0:
+#     r = n%10
+#     sum = sum+r*r*r
+#     n = n//10
+# print(sum)
+# if temp == sum:
+#     print("Armstrong")
+# else:
+#     print("Not Armstrong")

@@ -89,8 +89,8 @@
 # print(nordic_countries)  # ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 
 # enumerate use enumerate built-in function to get the index of each item in the list
-# for index, item in enumerate([20, 30, 40]):
-#     print(index, item)
+for index, item in enumerate([20, 30, 40]):
+    print(index, item)
 
 # countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 # for index, i in enumerate(countries):

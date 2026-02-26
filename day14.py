@@ -67,6 +67,23 @@
 # that allows a user to add new functionality to an 
 # existing object without modifying its structure
 
+# A basic decorator
+# def my_decorator(func):
+#     def wrapper():
+#         print("Before the function runs")
+#         func()
+#         print("After the function runs")
+#     return wrapper
+
+# # Using the decorator
+# @my_decorator
+# def say_hello():
+#     print("Hello!")
+
+# # Call the decorated function
+# say_hello()
+
+
 # Built in function 
 # map(), filter(), reduce()
 
