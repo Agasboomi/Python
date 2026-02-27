@@ -4,7 +4,7 @@
 # lsst = list()
 # print(len(lsst))
 
-fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fruits
+# fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fruits
 # print(fruits)
 # print(len(fruits))
 
@@ -98,10 +98,10 @@ fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fr
 # print(ages) 
 
 # Question:
-Name = []
-print(len(Name))
+# Name = []
+# print(len(Name))
 
-Name = ['agas','kar','uma','nisha','ajay','arun']
+# Name = ['agas','kar','uma','nisha','ajay','arun']
 # print(len(Name))
 
 # num = len(Name)
@@ -109,9 +109,9 @@ Name = ['agas','kar','uma','nisha','ajay','arun']
 
 # 4,9,19
 
-mixed_data_type = ["agas","16","4inch","single but ready to mingle","Kovial"]
+# mixed_data_type = ["agas","16","4inch","single but ready to mingle","Kovial"]
 
-it_company = ['amazon','google','facebook','apple']
+# it_company = ['amazon','google','facebook','apple']
 
 # print(it_company)
 # print(len(it_company))
@@ -164,9 +164,11 @@ it_company = ['amazon','google','facebook','apple']
 # print(full_stack)
 
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-ages.sort()
-min = ages[0]
-max=ages[-1]
-re = min + max
-print(re)
+print(max(ages))
+print(min(ages))
+# ages.sort()
+# min = ages[0]
+# max=ages[-1]
+# re = min + max
+# print(re)
 

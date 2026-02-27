@@ -31,6 +31,6 @@
 #     print(type(lines))
 #     print(lines)
 
-or
-with open('./files/reading_file_example.txt','a') as f:
-    f.write('This text has to be appended at the end')
+# or
+# with open('./files/reading_file_example.txt','a') as f:
+#     f.write('This text has to be appended at the end')
