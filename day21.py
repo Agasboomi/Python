@@ -1,4 +1,4 @@
-# OOPS concept is used to organiced the code and security propose 
+# OOPS concept is used to organized the code and security propose 
 # class - class is the blue print of the abject 
 #         _init_ to create a new object
 #         self to initiate a current object 
