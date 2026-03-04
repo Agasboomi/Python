@@ -1,4 +1,4 @@
-# Modulas
+# Module
 # - Definition: A module is a .py file with reusable code.
 # - Contents: It can include functions, classes, and variables.
 # - Purpose: Helps break large programs into smaller, manageable pieces.

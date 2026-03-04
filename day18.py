@@ -1,5 +1,5 @@
 # A regular expression or RegEx is a special text
-# string that helps to find patterns in data. 
+# string that helps to find patterns in data. #
 # A RegEx can be used to check if some pattern exists in a different data type
 # re.match(): searches only in the beginning of the first line of the string and returns matched objects if found, else returns None.
 # re.search: Returns a match object if there is one anywhere in the string, including multiline strings.

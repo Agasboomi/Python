@@ -44,7 +44,7 @@
 #     print("prime")
 
 # function 
-# r1eturn is used to store a value in function and it reuse
+# return is used to store a value in function and it reuse
 # print is used to display the value in terminal
 
 # def check(num):
