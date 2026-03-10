@@ -149,11 +149,16 @@
 # print('Count:', data.count)
 
 
-class personaccount:
-    def __init__(self,firstname, lastname):
-        self.firstname = firstname
-        self.lastname = lastname
+# class personaccount:
+#     def __init__(self,firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
 
-info = personaccount("agas","boominathan")
-print(info.firstname)
-print(info.lastname)
+# info = personaccount("agas","boominathan")
+# print(info.firstname)
+# print(info.lastname)
+
+# polymorphism
+# Inhertiance
+# Abstract
+#Encapsulation
