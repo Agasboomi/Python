@@ -96,6 +96,8 @@
 # ages = [22, 19, 24, 25, 26, 24, 25, 24]
 # ages.sort(reverse=True)
 # print(ages) 
+# Using sort() → modifies the list directly
+# Using sorted() → returns a new sorted list, original stays the same
 
 # Question:
 # Name = []
@@ -164,8 +166,15 @@
 # print(full_stack)
 
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-print(max(ages))
-print(min(ages))
+# lar = ages[0]
+# for i in ages:
+#     if i>lar:
+#         lar = i
+# print(lar)
+
+# print(max(ages))
+# print(min(ages))
+
 # ages.sort()
 # min = ages[0]
 # max=ages[-1]

@@ -111,6 +111,6 @@
 # print(len(ages))
 
 # sen = "I am a teacher and I love to inspire and teach people."
-# sp =set( sen.split())
+# sp =list(set( sen.split()))
 # print(sp)
 

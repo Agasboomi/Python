@@ -18,7 +18,9 @@
 # x > y
 
 # # is operator is to check both variable are same object address
-# print(1 is 1)
+# a = 1
+# b = a
+# print(a is b)
 # # in operator is to check the value present or not
 # print('A' in 'Agas')
 

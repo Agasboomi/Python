@@ -3,6 +3,7 @@
 # It is a programming language which is very close to human language and because of that, it is easy to learn and use. Python is used by various industries and companies (including Google). 
 # It has been used to develop web applications, desktop applications, system administration, and machine learning libraries. Python is a highly embraced language in the data science and machine learning community. 
 # It automatically handle the memory due to garbage collector
+# Python interpreter --> bytecode -->Python virtual machine
 
 
 # Day 1 - 30DaysOfPython Challenge
