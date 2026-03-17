@@ -86,6 +86,28 @@
 # # it means (A\B)∪(B\A)
 # print(st2.symmetric_difference(st1)) # {'item1', 'item4'} : st2 ^ st1
 
+def symmetric_diff(list1, list2):
+    result = []
+    
+    # Elements in list1 but not in list2
+    for x in list1:
+        if x not in list2 and x not in result:
+            result.append(x)
+    
+    # Elements in list2 but not in list1
+    for y in list2:
+        if y not in list1 and y not in result:
+            result.append(y)
+    
+    return result
+
+# Example
+A = [1, 2, 3, 4]
+B = [3, 4, 5, 6]
+
+print(symmetric_diff(A, B))  # Output: [1, 2, 5, 6]
+
+
 # Question
 # It_company = set()
 # print(len(It_company))

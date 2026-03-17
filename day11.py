@@ -178,7 +178,7 @@
 #     Parameters:
 #         items (list): The list whose elements will be printed
 #     """
-#     if isinstance(items, list):
+#     if isinstance(items, list): #isinstance is one of the function 
 #         for element in items:
 #             print(element)
 #     else:
