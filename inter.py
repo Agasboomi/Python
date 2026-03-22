@@ -73,5 +73,12 @@
 # ans = agas("agas",2)
 # ans.call()
 
-
-        
+# generator 
+# def agas():
+#     for i in range(n):
+#         yield i
+# n = 5
+# for var in agas():
+#     print(var)
+ 
+    

@@ -13,6 +13,7 @@
 # second_fruit = fruits[1]
 # last =len(fruits) - 1
 # last_fruit = fruits[last]
+# print(last_fruit)
 
 # # Index 
 # fruits = ('banana', 'orange', 'mango', 'lemon')
@@ -56,26 +57,26 @@
 # empty = ()
 # print(len(empty))
 
-brother = ('agas','arun','nisha')
-sister = ('karthi','anu','Sweety')
-sister_brother = brother + sister
-print(sister_brother)
+# brother = ('agas','arun','nisha')
+# sister = ('karthi','anu','Sweety')
+# sister_brother = brother + sister
+# print(sister_brother)
 
-print(len(sister_brother))
+# print(len(sister_brother))
 
-Par = ("navaneethi","Boomadevi")
-family = sister_brother + Par
-print(family)
+# Par = ("navaneethi","Boomadevi")
+# family = sister_brother + Par
+# print(family)
 
-a,b,c,d,e,f,g,h = family
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
-print(g)
-print(h)
+# a,b,c,d,e,f,g,h = family
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+# print(e)
+# print(f)
+# print(g)
+# print(h)
 
 # 2,3 homework
 # 4,5 doubt

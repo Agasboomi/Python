@@ -42,7 +42,7 @@
 # Remove item in the list
 # fruits = ['banana', 'orange', 'mango', 'lemon', 'banana']
 # fruits.remove('banana')
-# print(fruits)
+# print(fruits)  # it will remove first index
 
 # # POP() Remove list in the python
 # fruits = ['banana', 'orange', 'mango', 'lemon']
